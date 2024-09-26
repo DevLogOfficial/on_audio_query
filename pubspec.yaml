@@ -1,4 +1,4 @@
-name: on_audio_query_workspace
+name: on_audio_query
 
 environment:
   sdk: ">=2.17.0 <4.0.0"
