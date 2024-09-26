@@ -1,51 +1,53 @@
-plugins {
-    id "com.android.application"
-    id "kotlin-android"
+group 'com.lucasjosino.on_audio_query'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.8.22'
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.6.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
 }
 
+rootProject.allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
 android {
-    namespace "com.devlog.onaudioquery"
-    compileSdkVersion 34
-    ndkVersion "26.1.10909125"
-
-    compileOptions {
-        sourceCompatibility 17
-        targetCompatibility 17
-    }
-
-    kotlin {
-        jvmToolchain(17)
-    }
+    namespace "com.lucasjosino.on_audio_query"
+    compileSdkVersion 33
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
     defaultConfig {
-        applicationId "com.devlog.onaudioquery"
-        minSdkVersion 24
+        minSdkVersion 16
     }
 
-
-
-    buildTypes {
-        release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig signingConfigs.debug
-            shrinkResources false
-        }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
 
-//    buildFeatures {
-//        viewBinding true
-//    }
-    lint {
-        abortOnError false
-        checkReleaseBuilds false
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 }
 
 dependencies {
-    // ... whatever dependencies are specified
+    def lifecycle_version = "2.3.1"
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 }

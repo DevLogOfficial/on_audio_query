@@ -1,14 +1,1 @@
-pluginManagement {
-    repositories {
-        mavenCentral()
-        google()
-        gradlePluginPortal()
-        jcenter()
-    }
-}
-
-plugins {
-    id "com.android.application" version '8.6.1' apply false
-    id "org.jetbrains.kotlin.android" version "1.9.24" apply false
-    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.8.0'
-}
+rootProject.name = 'on_audio_query'
