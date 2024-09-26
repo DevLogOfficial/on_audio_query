@@ -24,7 +24,6 @@ android {
     defaultConfig {
         applicationId "com.devlog.onaudioquery"
         minSdkVersion 24
-        targetSdkVersion 29
     }
 
 
@@ -38,17 +37,16 @@ android {
         }
     }
 
-    lintOptions {
-        checkReleaseBuilds false
+//    buildFeatures {
+//        viewBinding true
+//    }
+    lint {
         abortOnError false
-    }
-    buildFeatures {
-        viewBinding true
+        checkReleaseBuilds false
     }
 }
 
 dependencies {
     // ... whatever dependencies are specified
 
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.7.0"
 }
