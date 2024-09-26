@@ -48,5 +48,4 @@ android {
 
 dependencies {
     // ... whatever dependencies are specified
-
 }
