@@ -49,7 +49,9 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: on_audio_query_android
+        default_package: 
+          git:
+            url: https://github.com/DevLogOfficial/on_audio_query/tree/main/packages/on_audio_query_android
       ios:
         default_package: on_audio_query_ios
       web:
