@@ -1,15 +1,15 @@
-package com.lucasjosino.on_audio_query.queries
+package com.devlog.on_audio_query.queries
 
 import android.content.ContentResolver
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.lucasjosino.on_audio_query.PluginProvider
-import com.lucasjosino.on_audio_query.controllers.PermissionController
-import com.lucasjosino.on_audio_query.queries.helper.QueryHelper
-import com.lucasjosino.on_audio_query.types.checkArtistsUriType
-import com.lucasjosino.on_audio_query.types.sorttypes.checkArtistSortType
-import com.lucasjosino.on_audio_query.utils.artistProjection
+import com.devlog.on_audio_query.PluginProvider
+import com.devlog.on_audio_query.controllers.PermissionController
+import com.devlog.on_audio_query.queries.helper.QueryHelper
+import com.devlog.on_audio_query.types.checkArtistsUriType
+import com.devlog.on_audio_query.types.sorttypes.checkArtistSortType
+import com.devlog.on_audio_query.utils.artistProjection
 import io.flutter.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

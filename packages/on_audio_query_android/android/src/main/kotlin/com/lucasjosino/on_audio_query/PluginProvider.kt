@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query
+package com.devlog.on_audio_query
 
 import android.app.Activity
 import android.content.Context

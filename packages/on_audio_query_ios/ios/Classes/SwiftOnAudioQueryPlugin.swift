@@ -2,7 +2,7 @@ import Flutter
 import UIKit
 
 public class SwiftOnAudioQueryPlugin: NSObject, FlutterPlugin {
-    private static let CHANNEL_NAME: String = "com.lucasjosino.on_audio_query"
+    private static let CHANNEL_NAME: String = "com.devlog.on_audio_query"
     
     override public init() {
         Log.setLogLevel(level: .warning)

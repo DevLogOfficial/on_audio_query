@@ -1,12 +1,12 @@
-package com.lucasjosino.on_audio_query.controllers
+package com.devlog.on_audio_query.controllers
 
 import android.Manifest
 import android.content.pm.PackageManager
 import android.os.Build
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import com.lucasjosino.on_audio_query.PluginProvider
-import com.lucasjosino.on_audio_query.interfaces.PermissionManagerInterface
+import com.devlog.on_audio_query.PluginProvider
+import com.devlog.on_audio_query.interfaces.PermissionManagerInterface
 import io.flutter.Log
 import io.flutter.plugin.common.PluginRegistry
 

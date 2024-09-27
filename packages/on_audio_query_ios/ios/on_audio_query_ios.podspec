@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
                        DESC
   s.homepage         = 'https://github.com/LucJosin/on_audio_query'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Lucas Josino' => 'contact@lucasjosino.com' }
+  s.author           = { 'Lucas Josino' => 'contact@devlog.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'

@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query.interfaces
+package com.devlog.on_audio_query.interfaces
 
 interface PermissionManagerInterface {
     fun permissionStatus() : Boolean

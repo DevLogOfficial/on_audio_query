@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query.controllers
+package com.devlog.on_audio_query.controllers
 
 import android.content.ContentResolver
 import android.content.ContentUris
@@ -6,7 +6,7 @@ import android.content.ContentValues
 import android.os.Build
 import android.provider.MediaStore
 import android.util.Log
-import com.lucasjosino.on_audio_query.PluginProvider
+import com.devlog.on_audio_query.PluginProvider
 
 /** OnPlaylistsController */
 class PlaylistController {

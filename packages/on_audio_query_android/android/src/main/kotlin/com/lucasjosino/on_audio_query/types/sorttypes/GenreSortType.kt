@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query.types.sorttypes
+package com.devlog.on_audio_query.types.sorttypes
 
 import android.provider.MediaStore
 

@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query.utils
+package com.devlog.on_audio_query.utils
 
 import android.annotation.SuppressLint
 import android.os.Build

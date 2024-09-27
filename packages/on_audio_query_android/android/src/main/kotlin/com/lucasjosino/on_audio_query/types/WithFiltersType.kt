@@ -1,12 +1,12 @@
-package com.lucasjosino.on_audio_query.types
+package com.devlog.on_audio_query.types
 
 import android.annotation.SuppressLint
 import android.net.Uri
 import android.provider.MediaStore
-import com.lucasjosino.on_audio_query.utils.artistProjection
-import com.lucasjosino.on_audio_query.utils.genreProjection
-import com.lucasjosino.on_audio_query.utils.playlistProjection
-import com.lucasjosino.on_audio_query.utils.songProjection
+import com.devlog.on_audio_query.utils.artistProjection
+import com.devlog.on_audio_query.utils.genreProjection
+import com.devlog.on_audio_query.utils.playlistProjection
+import com.devlog.on_audio_query.utils.songProjection
 
 fun checkWithFiltersType(sortType: Int): Uri {
     return when (sortType) {

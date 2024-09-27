@@ -1,4 +1,4 @@
-package com.lucasjosino.on_audio_query.types
+package com.devlog.on_audio_query.types
 
 import android.net.Uri
 import android.provider.MediaStore

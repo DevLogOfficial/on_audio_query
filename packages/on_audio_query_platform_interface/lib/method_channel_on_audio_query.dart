@@ -2,7 +2,7 @@
 =============
 Author: Lucas Josino
 Github: https://github.com/LucJosin
-Website: https://www.lucasjosino.com/
+Website: https://www.devlog.com/
 =============
 Plugin/Id: on_audio_query#0
 Homepage: https://github.com/LucJosin/on_audio_query
@@ -19,7 +19,7 @@ import 'package:flutter/services.dart';
 
 import 'on_audio_query_platform_interface.dart';
 
-const MethodChannel _channel = MethodChannel('com.lucasjosino.on_audio_query');
+const MethodChannel _channel = MethodChannel('com.devlog.on_audio_query');
 
 /// An implementation of [OnAudioQueryPlatform] that uses method channels.
 class MethodChannelOnAudioQuery extends OnAudioQueryPlatform {

@@ -2,7 +2,7 @@
 =============
 Author: Lucas Josino
 Github: https://github.com/LucJosin
-Website: https://www.lucasjosino.com/
+Website: https://www.devlog.com/
 =============
 Plugin/Id: on_audio_query#0
 Homepage: https://github.com/LucJosin/on_audio_query
@@ -12,13 +12,13 @@ Copyright: © 2021, Lucas Josino. All rights reserved.
 =============
 */
 
-package com.lucasjosino.on_audio_query
+package com.devlog.on_audio_query
 
 import android.media.MediaScannerConnection
 import android.os.Build
-import com.lucasjosino.on_audio_query.consts.Method
-import com.lucasjosino.on_audio_query.controllers.MethodController
-import com.lucasjosino.on_audio_query.controllers.PermissionController
+import com.devlog.on_audio_query.consts.Method
+import com.devlog.on_audio_query.controllers.MethodController
+import com.devlog.on_audio_query.controllers.PermissionController
 import io.flutter.Log
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.embedding.engine.plugins.activity.ActivityAware
@@ -40,7 +40,7 @@ class OnAudioQueryPlugin : FlutterPlugin, MethodCallHandler, ActivityAware {
         private const val TAG: String = "OnAudioQueryPlugin"
 
         // Method channel name.
-        private const val CHANNEL_NAME = "com.lucasjosino.on_audio_query"
+        private const val CHANNEL_NAME = "com.devlog.on_audio_query"
     }
 
     private var permissionController = PermissionController()

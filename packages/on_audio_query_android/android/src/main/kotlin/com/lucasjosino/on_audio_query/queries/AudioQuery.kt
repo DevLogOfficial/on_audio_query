@@ -1,14 +1,14 @@
-package com.lucasjosino.on_audio_query.queries
+package com.devlog.on_audio_query.queries
 
 import android.content.ContentResolver
 import android.net.Uri
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.lucasjosino.on_audio_query.PluginProvider
-import com.lucasjosino.on_audio_query.queries.helper.QueryHelper
-import com.lucasjosino.on_audio_query.types.checkAudiosUriType
-import com.lucasjosino.on_audio_query.types.sorttypes.checkSongSortType
-import com.lucasjosino.on_audio_query.utils.songProjection
+import com.devlog.on_audio_query.PluginProvider
+import com.devlog.on_audio_query.queries.helper.QueryHelper
+import com.devlog.on_audio_query.types.checkAudiosUriType
+import com.devlog.on_audio_query.types.sorttypes.checkSongSortType
+import com.devlog.on_audio_query.utils.songProjection
 import io.flutter.Log
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

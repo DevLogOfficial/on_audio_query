@@ -2,7 +2,7 @@
 =============
 Author: Lucas Josino
 Github: https://github.com/LucJosin
-Website: https://www.lucasjosino.com/
+Website: https://www.devlog.com/
 =============
 Plugin/Id: on_audio_query#0
 Homepage: https://github.com/LucJosin/on_audio_query
