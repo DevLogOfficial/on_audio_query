@@ -33,5 +33,5 @@ flutter:
     implements: on_audio_query
     platforms:
       android:
-        package: com.devlog.on_audio_query
+        package: https://github.com/DevLogOfficial/on_audio_query
         pluginClass: OnAudioQueryPlugin
