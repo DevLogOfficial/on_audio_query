@@ -35,11 +35,16 @@ android {
         minSdkVersion 16
     }
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
     lintOptions {
         disable 'InvalidPackage'
     }
     kotlinOptions {
-        jvmTarget = '18'
+        jvmTarget = '17'
     }
 }
 
