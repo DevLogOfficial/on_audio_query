@@ -26,21 +26,21 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 29
-
     namespace 'com.lucasjosino.on_audio_query'
-//
-//    compileOptions {
-//        sourceCompatibility JavaVersion.VERSION_1_8
-//        targetCompatibility JavaVersion.VERSION_1_8
-//    }
-//
-//    kotlinOptions {
-//        jvmTarget = "1.8"
-//    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8 // Ensuring consistent Java target version
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8" // Ensuring consistent Kotlin target version
+    }
 
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
+
     defaultConfig {
         minSdkVersion 16
     }
