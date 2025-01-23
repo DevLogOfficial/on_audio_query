@@ -31,15 +31,15 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-
-    compileOptions {
-        // sourceCompatibility JavaVersion.VERSION_1_8
-        // targetCompatibility JavaVersion.VERSION_1_8
-        coreLibraryDesugaringEnabled true
-    }
-
-    kotlinOptions {
-        jvmTarget = "17"
+    def javaVersion = JavaVersion.VERSION_17
+   compileOptions {
+       sourceCompatibility javaVersion
+       targetCompatibility javaVersion
+   }
+    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
+        kotlinOptions {
+            jvmTarget = javaVersion.toString()
+        }
     }
 
     defaultConfig {
