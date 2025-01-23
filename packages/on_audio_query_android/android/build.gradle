@@ -36,11 +36,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility 17
-        targetCompatibility 17
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
     }
+
     kotlinOptions {
-        jvmToolchain(17)
+        jvmTarget = JavaVersion.VERSION_1_8
     }
 }
 

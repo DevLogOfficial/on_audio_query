@@ -41,14 +41,6 @@ android {
         versionName flutterVersionName
     }
 
-    compileOptions {
-        sourceCompatibility 17
-        targetCompatibility 17
-    }
-    kotlinOptions {
-        jvmToolchain(17)
-    }
-
     buildTypes {
         release {
             // TODO: Add your own signing config for the release build.
