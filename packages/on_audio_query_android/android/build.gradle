@@ -31,15 +31,14 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-    def javaVersion = JavaVersion.VERSION_17
+    
    compileOptions {
-       sourceCompatibility javaVersion
-       targetCompatibility javaVersion
-   }
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {
-        kotlinOptions {
-            jvmTarget = javaVersion.toString()
-        }
+        sourceCompatibility 17
+        targetCompatibility 17
+    }
+
+    kotlin {
+        jvmToolchain(17)
     }
 
     defaultConfig {
