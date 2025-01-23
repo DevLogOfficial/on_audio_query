@@ -44,7 +44,6 @@ android {
         disable 'InvalidPackage'
     }
     kotlinOptions {
-        jvmTarget = '17'
         jvmToolchain(17)
     }
 }
