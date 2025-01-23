@@ -30,12 +30,12 @@ android {
     namespace 'com.lucasjosino.on_audio_query'
 
     compileOptions {
-        sourceCompatibility 18
-        targetCompatibility 18
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
     }
 
     kotlin {
-        jvmToolchain(18)
+        jvmToolchain(1.8)
     }
 
     sourceSets {
