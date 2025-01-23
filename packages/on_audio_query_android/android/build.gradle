@@ -33,12 +33,12 @@ android {
     }
 
     compileOptions {
-        sourceCompatibility 17
-        targetCompatibility 17
+        sourceCompatibility 18
+        targetCompatibility 18
     }
 
     kotlinOptions {
-        jvmToolchain(17)
+        jvmToolchain(18)
     }
 
     defaultConfig {
