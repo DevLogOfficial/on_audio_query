@@ -32,13 +32,13 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    // compileOptions {
-    //     sourceCompatibility JavaVersion.VERSION_1_8
-    //     targetCompatibility JavaVersion.VERSION_1_8
-    // }
+//     compileOptions {
+//         sourceCompatibility JavaVersion.VERSION_1_8
+//         targetCompatibility JavaVersion.VERSION_1_8
+//     }
 
     kotlinOptions {
-        jvmToolchain(17)
+        jvmTarget = "17"
     }
 
     defaultConfig {
