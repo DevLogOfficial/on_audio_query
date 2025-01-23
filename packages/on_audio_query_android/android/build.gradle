@@ -29,6 +29,15 @@ android {
 
     namespace 'com.lucasjosino.on_audio_query'
 
+    compileOptions {
+        sourceCompatibility 18
+        targetCompatibility 18
+    }
+
+    kotlin {
+        jvmToolchain(18)
+    }
+
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
