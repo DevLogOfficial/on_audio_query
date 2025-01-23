@@ -30,8 +30,7 @@ dev_dependencies:
 
 flutter:
   plugin:
-    implements: on_audio_query
     platforms:
       android:
-        package: https://github.com/DevLogOfficial/on_audio_query
+        package: com.devlogofficial.on_audio_query
         pluginClass: OnAudioQueryPlugin
