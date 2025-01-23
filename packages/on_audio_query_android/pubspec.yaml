@@ -1,12 +1,12 @@
 # ========
 # author: Lucas Josino
 # github: https://github.com/LucJosin
-# website: https://www.devlog.com/
+# website: https://www.lucasjosino.com/
 # ========
 name: on_audio_query_android
 description: Android implementation of the on_audio_query plugin.
 version: 1.1.0
-homepage: https://github.com/DevLogOfficial/on_audio_query/tree/main/packages/on_audio_query_android
+homepage: https://github.com/LucJosin/on_audio_query/tree/main/packages/on_audio_query_android
 # pub.dev: https://pub.dev/packages/on_audio_query
 # pub.dev (Android): https://pub.dev/packages/on_audio_query_android
 
@@ -33,5 +33,5 @@ flutter:
     implements: on_audio_query
     platforms:
       android:
-        package: com.devlogofficial.on_audio_query
+        package: com.lucasjosino.on_audio_query
         pluginClass: OnAudioQueryPlugin

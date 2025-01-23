@@ -1,10 +1,10 @@
-package com.devlog.on_audio_query.queries
+package com.lucasjosino.on_audio_query.queries
 
 import android.annotation.SuppressLint
 import android.content.ContentResolver
 import android.net.Uri
 import android.provider.MediaStore
-import com.devlog.on_audio_query.PluginProvider
+import com.lucasjosino.on_audio_query.PluginProvider
 import io.flutter.Log
 import java.io.File
 

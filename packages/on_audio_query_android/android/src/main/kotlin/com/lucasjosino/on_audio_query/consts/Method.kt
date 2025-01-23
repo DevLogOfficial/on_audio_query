@@ -1,4 +1,4 @@
-package com.devlog.on_audio_query.consts
+package com.lucasjosino.on_audio_query.consts
 
 object Method {
     // General methods

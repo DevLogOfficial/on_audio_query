@@ -1,8 +1,8 @@
-package com.devlog.on_audio_query.controllers
+package com.lucasjosino.on_audio_query.controllers
 
-import com.devlog.on_audio_query.PluginProvider
-import com.devlog.on_audio_query.consts.Method
-import com.devlog.on_audio_query.queries.*
+import com.lucasjosino.on_audio_query.PluginProvider
+import com.lucasjosino.on_audio_query.consts.Method
+import com.lucasjosino.on_audio_query.queries.*
 
 class MethodController() {
 
