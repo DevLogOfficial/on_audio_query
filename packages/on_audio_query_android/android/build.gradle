@@ -6,6 +6,7 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
@@ -14,16 +15,11 @@ buildscript {
     }
 }
 
-subprojects {
-    tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile) {
-        kotlinOptions.jvmTarget = "1.8"
-    }
-}
-
 rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 
