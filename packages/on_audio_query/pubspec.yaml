@@ -44,9 +44,16 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  # Material Design
+  uses-material-design: true
   plugin:
     platforms:
       android:
-        pluginClass: OnAudioQueryPlugin
+        default_package: 
+          git:
+            url: https://github.com/DevLogOfficial/on_audio_query
+            path: packages/on_audio_query_android
       ios:
-        pluginClass: OnAudioQueryPlugin
+        default_package: on_audio_query_ios
+      web:
+        default_package: on_audio_query_web
