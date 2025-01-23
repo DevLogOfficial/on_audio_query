@@ -31,9 +31,6 @@ android {
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
-    defaultConfig {
-        minSdkVersion 16
-    }
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -42,6 +39,11 @@ android {
 
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_1_8
+        jvmToolchain(18)
+    }
+
+    defaultConfig {
+        minSdkVersion 16
     }
 }
 
