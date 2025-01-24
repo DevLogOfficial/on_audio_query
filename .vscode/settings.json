@@ -1,4 +1,3 @@
 {
-    "dart.runPubGetOnPubspecChanges": "always",
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "dart.runPubGetOnPubspecChanges": "always"
 }
