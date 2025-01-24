@@ -52,7 +52,7 @@ flutter:
   plugin:
     platforms:
       android:
-        default_package: on_audio_query_android
+        #default_package: on_audio_query_android
       ios:
         default_package: on_audio_query_ios
       web:
